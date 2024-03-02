@@ -17,3 +17,7 @@ Plan after making a new technology
   - What is the worst thing this technology can be used for?
     - How would you penetrate this technology if you were forced to?
   - Can we whitelist usage of the technology?
+
+
+## Values
+- No blaming, the buck stops at the top
