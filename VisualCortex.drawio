@@ -28,7 +28,7 @@
             <mxPoint x="240" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7BeZ9nyPgXJLnocpsz5R-9" value="MT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7BeZ9nyPgXJLnocpsz5R-9" value="V5 (aka MT)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-10" value="PPC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -172,11 +172,11 @@
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-53" value="V3&lt;div&gt;- Motion / depth via disparity maps&lt;/div&gt;&lt;div&gt;- Global motion (direction, speed) of objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="790" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7BeZ9nyPgXJLnocpsz5R-54" value="MT&lt;br&gt;&lt;div&gt;- Motion / depth via disparity maps&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="940" width="260" height="120" as="geometry" />
+        <mxCell id="7BeZ9nyPgXJLnocpsz5R-54" value="V5 (aka MT)&lt;br&gt;&lt;div&gt;- Motion / depth via disparity maps&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="1100" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-55" value="V4&lt;div&gt;- simple shapes, surface features, object boundaries, object color&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="1090" width="260" height="120" as="geometry" />
+          <mxGeometry x="-340" y="945" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-56" value="PPC&lt;div&gt;- Now the brain puts objects from V4 into x,y,z coordinates relative to self&lt;/div&gt;&lt;div&gt;- inputs = V3/MT, head direction cells, gyroscope, MEC (hippocampus grid cells)&lt;/div&gt;&lt;div&gt;- Given current x,y,z state and head direction cell changes, does mymodel expect the object features given to me by V4?&lt;/div&gt;&lt;div&gt;- Has grid cell like coding for eye position, movement instead of in physical absolute x,y,z space (of the hippocampus maze firing grid cells)&lt;/div&gt;&lt;div&gt;- bidirectional with MEC (hippocampus grid cells) to update the MEC grid cells. MEC grid cells tell PPC where objects moved to&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-395" y="1250" width="370" height="200" as="geometry" />
@@ -314,7 +314,7 @@
         <mxCell id="R5JsLaLzXKioPXl-SvFv-27" value="V4&lt;div&gt;- simple shapes&lt;/div&gt;&lt;div&gt;- surface features&lt;/div&gt;&lt;div&gt;- object boundaries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-28" value="V5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-28" value="V5 (aka MT)&lt;div&gt;- self motion (speed and direction of our own movement)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="R5JsLaLzXKioPXl-SvFv-30">
