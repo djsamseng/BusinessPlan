@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="L4ATmHOxBW7hnk37qFYO">
-    <mxGraphModel dx="1515" dy="1537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,7 +175,7 @@
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-54" value="MT&lt;br&gt;&lt;div&gt;- Motion / depth via disparity maps&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="940" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7BeZ9nyPgXJLnocpsz5R-55" value="V4&lt;div&gt;- surface features, object boundaries, object color&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7BeZ9nyPgXJLnocpsz5R-55" value="V4&lt;div&gt;- simple shapes, surface features, object boundaries, object color&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="1090" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-56" value="PPC&lt;div&gt;- Now the brain puts objects from V4 into x,y,z coordinates relative to self&lt;/div&gt;&lt;div&gt;- inputs = V3/MT, head direction cells, gyroscope, MEC (hippocampus grid cells)&lt;/div&gt;&lt;div&gt;- Given current x,y,z state and head direction cell changes, does mymodel expect the object features given to me by V4?&lt;/div&gt;&lt;div&gt;- Has grid cell like coding for eye position, movement instead of in physical absolute x,y,z space (of the hippocampus maze firing grid cells)&lt;/div&gt;&lt;div&gt;- bidirectional with MEC (hippocampus grid cells) to update the MEC grid cells. MEC grid cells tell PPC where objects moved to&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -241,7 +241,7 @@
         <mxCell id="R5JsLaLzXKioPXl-SvFv-15" value="LGN&lt;div&gt;- gauges range of objects&lt;/div&gt;&lt;div&gt;- tags every major object with a velocity tag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="220" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-16" value="V1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-16" value="V1&lt;div&gt;- Edge/bar detectors&lt;/div&gt;&lt;div&gt;- orientation specific&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-15" target="R5JsLaLzXKioPXl-SvFv-16">
@@ -253,7 +253,7 @@
         <mxCell id="R5JsLaLzXKioPXl-SvFv-18" value="V3&lt;div&gt;- Global motion of objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-19" value="V2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-19" value="V2&lt;div&gt;- Simple combination of edges resulting in simple curves&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-15" target="R5JsLaLzXKioPXl-SvFv-19">
@@ -311,7 +311,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-27" value="V4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-27" value="V4&lt;div&gt;- simple shapes&lt;/div&gt;&lt;div&gt;- surface features&lt;/div&gt;&lt;div&gt;- object boundaries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-28" value="V5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -326,8 +326,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-30" value="Inferior temporal cortex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-30" value="Inferior temporal cortex (IT)&lt;div&gt;- faces, objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-16" target="R5JsLaLzXKioPXl-SvFv-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -389,6 +389,34 @@
               <mxPoint x="240" y="340" />
               <mxPoint x="300" y="340" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-27" target="R5JsLaLzXKioPXl-SvFv-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-28" target="R5JsLaLzXKioPXl-SvFv-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-16" target="R5JsLaLzXKioPXl-SvFv-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="375" />
+              <mxPoint x="190" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-27" target="R5JsLaLzXKioPXl-SvFv-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
