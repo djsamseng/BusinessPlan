@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="L4ATmHOxBW7hnk37qFYO">
-    <mxGraphModel dx="1724" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-31" value="V4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BeZ9nyPgXJLnocpsz5R-32" value="Temporal Cortex" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7BeZ9nyPgXJLnocpsz5R-32" value="Temporal Cortex (IT)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7BeZ9nyPgXJLnocpsz5R-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7BeZ9nyPgXJLnocpsz5R-31" target="7BeZ9nyPgXJLnocpsz5R-32" edge="1">
@@ -327,7 +327,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-30" value="Inferior temporal cortex (IT)&lt;div&gt;- faces, objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="350" width="150" height="60" as="geometry" />
+          <mxGeometry x="360" y="360" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-16" target="R5JsLaLzXKioPXl-SvFv-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -419,11 +419,11 @@
             <mxPoint x="230" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-44" value="PPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="350" width="50" height="60" as="geometry" />
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-44" value="PPC&lt;div&gt;- Also feedback to V1/V2/V3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R5JsLaLzXKioPXl-SvFv-45" value="Prefrontal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-45" value="Prefrontal&lt;div&gt;- Also feedback to V1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-47" value="" style="curved=1;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-30" target="R5JsLaLzXKioPXl-SvFv-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -454,15 +454,183 @@
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-30" target="R5JsLaLzXKioPXl-SvFv-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="820" as="sourcePoint" />
-            <mxPoint x="230" y="770" as="targetPoint" />
+            <mxPoint x="140" y="830" as="sourcePoint" />
+            <mxPoint x="190" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R5JsLaLzXKioPXl-SvFv-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-44" target="R5JsLaLzXKioPXl-SvFv-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="830" as="sourcePoint" />
+            <mxPoint x="190" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7BeZ9nyPgXJLnocpsz5R-35" target="7BeZ9nyPgXJLnocpsz5R-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="820" as="sourcePoint" />
             <mxPoint x="230" y="770" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-55" value="Hippocampus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-56" value="Inferior temporal cortex (IT)&lt;div&gt;- faces, objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="2050" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-57" value="Prefrontal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-58" value="Amygdala&lt;div&gt;- emotion (scary vs exciting)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-59" value="Ventral Stratum&lt;div&gt;- Reward&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-60" value="Entorhinal Cortext (EC)&lt;div&gt;- input/output hub for hippocampus&lt;/div&gt;&lt;div&gt;- carries: sensory (what you&#39;re seeing), spatial (where you are), timing (sequence of events)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="2350" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-61" value="Perirhinal cortex&lt;div&gt;- What pathway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-63" value="Parahippocampal cortex&lt;div&gt;- Where pathway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69.5" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-57" target="R5JsLaLzXKioPXl-SvFv-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-65" value="Remember this!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-243.75" y="2460" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-55" target="R5JsLaLzXKioPXl-SvFv-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-68" value="Memory traces for planning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="2510" width="147.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-72" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-55" target="R5JsLaLzXKioPXl-SvFv-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-55" target="R5JsLaLzXKioPXl-SvFv-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-55" target="R5JsLaLzXKioPXl-SvFv-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-60" target="R5JsLaLzXKioPXl-SvFv-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-77" value="You&#39;ve been in a place like this before" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99.75" y="2290" width="140.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-60" target="R5JsLaLzXKioPXl-SvFv-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-79" value="You&#39;ve seen this before" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="2280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.329;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-61" target="R5JsLaLzXKioPXl-SvFv-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.671;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-63" target="R5JsLaLzXKioPXl-SvFv-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2270" as="sourcePoint" />
+            <mxPoint x="80" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-82" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-61" target="R5JsLaLzXKioPXl-SvFv-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2120" as="sourcePoint" />
+            <mxPoint x="80" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-83" value="Prefrontal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-84" value="Inferior temporal cortex (IT)&lt;div&gt;- faces, objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="2950" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-85" value="Perirhinal cortex&lt;div&gt;- What pathway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-86" value="Parahippocampal cortex&lt;div&gt;- Where pathway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-87" value="Hippocampus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-88" value="V1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-83" target="R5JsLaLzXKioPXl-SvFv-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2800" as="sourcePoint" />
+            <mxPoint x="30" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-90" value="Retrieve this" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2970" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-91" value="Encode this" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2990" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-83" target="R5JsLaLzXKioPXl-SvFv-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2800" as="sourcePoint" />
+            <mxPoint x="30" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-93" value="Look for a red line on the paper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99.5" y="2900" width="100.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-83" target="R5JsLaLzXKioPXl-SvFv-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2800" as="sourcePoint" />
+            <mxPoint x="30" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-95" value="Select this object for encoding / recall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="2880" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-83" target="R5JsLaLzXKioPXl-SvFv-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2800" as="sourcePoint" />
+            <mxPoint x="30" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-97" value="Look for that face" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="2970" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R5JsLaLzXKioPXl-SvFv-83" target="R5JsLaLzXKioPXl-SvFv-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2800" as="sourcePoint" />
+            <mxPoint x="30" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5JsLaLzXKioPXl-SvFv-99" value="Select this motion path for encoding / recall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="2850" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
